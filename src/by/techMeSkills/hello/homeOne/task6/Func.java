@@ -10,8 +10,6 @@ public class Func {
             System.out.println("a==b");
         }
 
-
-        String string = new String();
-        string.e
+        
     }
 }
