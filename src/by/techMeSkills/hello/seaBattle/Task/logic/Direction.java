@@ -16,7 +16,7 @@ public class Direction {
             if(checkCoordinates.left()==true&&checkCoordinates.right()==false){
                 return 2;
             }
-            else if(checkCoordinates.left()==false&&checkCoordinates.left()==true){
+            else if(checkCoordinates.left()==false&&checkCoordinates.right()==true){
                 return 4;
             }else{
                 if(random.nextBoolean()==true){
@@ -32,7 +32,7 @@ public class Direction {
             }
             else if(checkCoordinates.up()==false&&checkCoordinates.down()==true){
                 return 1;
-            }else{
+            }else {
                 if(random.nextBoolean()==true){
                     return 1;
                 }else{
