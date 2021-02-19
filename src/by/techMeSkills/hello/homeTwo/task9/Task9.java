@@ -1,15 +1,14 @@
-package by.techMeSkills.hello.homeTwo.Task8;
+package by.techMeSkills.hello.homeTwo.task9;
 
-public class Task {
+public class Task9 {
     public static void main(String[] args) {
-    int m = 5;
-    int n = 5;
+        Print print = new Print();
         for (int i = 0; i < 5; i++) {
-            for (int j = 0; j < 5; j++) {
-                if(i>0&&j<i)
-                 System.out.print(" ");
-                else
-                    System.out.print("*");
+            for (int j = i; j < 5; j++) {
+
+                    print.getParam(i, j);
+
+                //System.out.print("*");
             }
 
             System.out.println();
